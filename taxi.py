@@ -59,4 +59,4 @@ action_space = 6
 q_table = init_q_table(state_space, action_space)
 trained_q_table = train(env ,max_steps ,q_table ,n_training_episodes ,min_epsilon ,max_epsilon ,decay_rate ,lr ,gamma)
 
-print(q_table)
+print(trained_q_table)
