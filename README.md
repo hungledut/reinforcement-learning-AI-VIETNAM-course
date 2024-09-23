@@ -12,5 +12,5 @@ For Q-Learning algorithm, we aim to train a **Q-function** to achieve the optima
 ![RL overview 2](images/RL2.jpg)
 
 Formula us used to update the Q-value: <br>
-$Q\left(S_t, A_t\right)=Q\left(S_t, A_t\right)+\alpha\left[R_{t+1}+\gamma \max _a Q\left(S_{t+1}, a\right)-Q\left(S_t, A_t\right)\right]$
+$Q(S_t, A_t)=Q(S_t, A_t)+\alpha[R_{t+1}+\gamma \max _a Q(S_{t+1}, a)-Q(S_t, A_t)]$
 
