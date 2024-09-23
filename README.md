@@ -13,4 +13,8 @@ For Q-Learning algorithm, we aim to train a **Q-function** to achieve the optima
 
 Formula is used to update the Q-value: <br>
 $Q(S_t, A_t) = Q(S_t, A_t) + \alpha [R_{t+1} + \gamma. \underset{a}{max}. Q(S_{t+1}, a) - Q(S_t, A_t)]$
+In this problem, there are 6 actions and 500 state <br>
+
+Q-Learning's pseudo code:
+![RL overview 3](RL3.png)
 
