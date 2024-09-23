@@ -22,6 +22,8 @@ Q-Learning's pseudo code:
 In the problem, we apply **Approximate Q-Learning** algorithm, which utilizes a function approximator instead of a Q-Table <br>
 ![RL overview 4](images/RL4.png)
 
+A Q-Function Approximator is represeted by: <br>
+![RL overview 5](images/RL5.png)
 
 
 
