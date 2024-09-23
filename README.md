@@ -11,6 +11,6 @@ In the problem, we utilize **Q-Learning** algorithm, one of the subtypes of Valu
 For Q-Learning algorithm, we aim to train a **Q-function** to achieve the optimal Q-Table, thus optimal policy. <br>
 ![RL overview 2](images/RL2.jpg)
 
-Formula us used to update the Q-value: <br>
+Formula is used to update the Q-value: <br>
 $Q(S_t, A_t) = Q(S_t, A_t) + \alpha [R_{t+1} + \gamma. \underset{a}{max}. Q(S_{t+1}, a) - Q(S_t, A_t)]$
 
