@@ -19,7 +19,8 @@ Q-Learning's pseudo code:
 ![RL overview 3](images/RL3.png)
 
 ### Problem 2:
-
+In the problem, we utilize a function approximator instead of a Q-Table <br>
+![RL overview 4](images/RL4.png)
 
 
 
