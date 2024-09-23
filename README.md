@@ -16,7 +16,7 @@ $Q(S_t, A_t) = Q(S_t, A_t) + \alpha [R_{t+1} + \gamma. \underset{a}{max}. Q(S_{t
 In this problem, there are 6 actions and 500 state <br>
 
 Q-Learning's pseudo code:
-![RL overview 3](RL3.png)
+![RL overview 3](images/RL3.png)
 
 ### Problem 2:
 
