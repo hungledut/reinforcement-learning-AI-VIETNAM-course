@@ -26,7 +26,8 @@ A Q-Function Approximator is represeted by: <br>
 ![RL overview 5](images/RL5.png)
 
 ### Problem 3:
-The problem is diffent from previous problems because this one includes a stochastic environment with discrete actions.
+The problem is diffent from previous problems because this one includes a stochastic environment with discrete actions. <br>
+Especially, we use policy $\pi _{\theta}$ as a neural network, with $\theta$ being the parameter 
 ![RL overview 6](images/RL6.jpg)
 
 
