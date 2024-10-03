@@ -25,5 +25,8 @@ In the problem, we apply **Approximate Q-Learning** algorithm, which utilizes a 
 A Q-Function Approximator is represeted by: <br>
 ![RL overview 5](images/RL5.png)
 
+### Problem 3:
+The problem is diffent from previous problems because this one includes a stochastic environment with discrete actions.
+![RL overview 6](images/RL6.jpg)
 
 
