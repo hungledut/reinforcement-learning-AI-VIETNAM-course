@@ -38,3 +38,6 @@ Policy Evaluation: <br>
 
 Policy Evaluation with iterative approach: <br>
 ![RL overview 8](images/policy_evaluation2.jpg)
+
+Value Iteration: <br>
+![RL overview 9](images/value_iteration.jpg)
