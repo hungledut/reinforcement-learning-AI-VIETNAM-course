@@ -1,4 +1,4 @@
-## My revision for Reinforcement Learning course designed by AI VIETNAM
+ ## My revision for Reinforcement Learning course designed by AI VIETNAM
 
 An agent at the state $S_t$ receiving reward $R_t$ take an action $A_t$, and thus the agent get reward $R_{t+1}$ and move to state $S_{t+1}$ 
 ![RL overview](images/RL.jpg)
@@ -12,7 +12,7 @@ For Q-Learning algorithm, we aim to train a **Q-function** to achieve the optima
 ![RL overview 2](images/RL2.jpg)
 
 Formula is used to update the Q-value: <br>
-$Q(S_t, A_t) = Q(S_t, A_t) + \alpha [R_{t+1} + \gamma. \underset{a}{max}. Q(S_{t+1}, a) - Q(S_t, A_t)]$
+$Q(S_t, A_t) = Q(S_t, A_t) + \alpha [R_{t+1} + \gamma. \underset{a}{max}. Q(S_{t+1}, a) - Q(S_t, A_t)]$ <br>
 In this problem, there are 6 actions and 500 state <br>
 
 Q-Learning's pseudo code:
@@ -22,7 +22,7 @@ Q-Learning's pseudo code:
 In the problem, we apply **Approximate Q-Learning** algorithm, which utilizes a function approximator instead of a Q-Table <br>
 ![RL overview 4](images/RL4.png)
 
-A Q-Function Approximator is represeted by: <br>
+A Q-Function Approximator is represented by: <br>
 ![RL overview 5](images/RL5.png)
 
 ### Problem 3:
