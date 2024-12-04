@@ -1,5 +1,5 @@
 import numpy as np
-import gym
+import gymnasium as gym
 import os
 import tqdm
 import matplotlib.pyplot as plt
@@ -16,8 +16,7 @@ from matplotlib import animation
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 # Initialize the environment
-env_id = 'LunarLander-v2'
-env = gym.make(env_id , new_step_api = True )
+env = gym.make('LunarLander-v2')
 
 state_space = env.observation_space.shape[0]
 print('State Space:', state_space)
