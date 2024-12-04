@@ -6,6 +6,9 @@ An agent at the state $S_t$ receiving reward $R_t$ take an action $A_t$, and thu
 The Deep Reinforcement Learning (DRL) consist of 2 main types. One of those is Model-Free DRL, including Value-based and Policy-based RL. These are two subtypes that we study in this course. 
 ![RL overview 1](images/RL1.png)
 
+### Compare Q-Learning and SARSA:
+![RL overview 10](images/compare.jpg)
+
 ### Problem 1:
 In the problem, we utilize **Q-Learning** algorithm, one of the subtypes of Value-based RL.  <br>
 For Q-Learning algorithm, we aim to train a **Q-function** to achieve the optimal Q-Table, thus optimal policy. <br>
