@@ -35,3 +35,6 @@ Especially, we use policy $\pi _{\theta}$ as a neural network, with $\theta$ bei
 
 Policy Evaluation: <br>
 ![RL overview 7](images/policy_evaluation1.jpg)
+
+Policy Evaluation with iterative approach: <br>
+![RL overview 8](images/policy_evaluation2.jpg)
