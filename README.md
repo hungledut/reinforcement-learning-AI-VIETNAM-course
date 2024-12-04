@@ -31,3 +31,7 @@ Especially, we use policy $\pi _{\theta}$ as a neural network, with $\theta$ bei
 ![RL overview 6](images/RL6.jpg)
 
 
+## REVISION:
+
+Policy Evaluation: <br>
+![RL overview 7](images/policy_evaluation1.jpg)
