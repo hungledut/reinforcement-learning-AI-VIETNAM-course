@@ -44,3 +44,7 @@ Policy Evaluation with iterative approach: <br>
 
 Value Iteration: <br>
 ![RL overview 9](images/value_iteration.jpg)
+
+## Policy Gradient Algorithm:
+
+![RL overview 10](images/general_form_policy_gradient.png)
