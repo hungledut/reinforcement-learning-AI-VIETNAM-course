@@ -57,7 +57,8 @@ def reinforce(
     for i_episode in range(1, n_training_episodes + 1):
         saved_log_probs = []
         rewards = []
-        state = env.reset()
+        state = env.reset()[0]
+        print(state)
 
         for t in range(max_steps):
             action , log_prob = policy.act(state)
