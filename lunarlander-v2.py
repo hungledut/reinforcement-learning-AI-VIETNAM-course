@@ -16,7 +16,7 @@ from matplotlib import animation
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 # Initialize the environment
-env = gym.make('LunarLander-v2')
+env = gym.make('LunarLander-v3')
 
 state_space = env.observation_space.shape[0]
 print('State Space:', state_space)
@@ -57,7 +57,7 @@ def reinforce(
     for i_episode in range(1, n_training_episodes + 1):
         saved_log_probs = []
         rewards = []
-        state = env.reset ()
+        state = env.reset()
 
         for t in range(max_steps):
             action , log_prob = policy.act(state)
